@@ -1,0 +1,74 @@
+/* CSS Document */
+.heading
+{
+	font-family: 'Montserrat', sans-serif;
+	font-size:36px;
+}
+.content
+{
+	border-bottom:1px solid #00F;
+}
+
+.contentHeading
+{
+	font-family: 'Montserrat', sans-serif;
+	font-size:21px;
+	margin:15px;
+}
+
+.content
+{
+	background-color:#F0F0F0;
+}
+
+input[type=text]
+{
+	width:30%;
+	margin:15px 0;
+}
+
+.list-group-item
+{
+	color:#000;
+}
+
+.card-img-top
+{
+	height:50px;
+}
+
+.selQ
+{
+	width:150px;
+}
+
+.delete
+{
+	font-weight:600;
+	color:#F00;
+}
+
+.cm
+{
+	margin-top:25px;
+}
+
+.sel
+{
+	margin:25px;
+}
+
+.btnREg
+{
+	margin-left:150px;
+}
+
+.rdoRed
+{
+	border-color:#F00;
+}
+
+.rdoGreen
+{
+	border-color:#0F0;
+}

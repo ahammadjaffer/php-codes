@@ -1,0 +1,281 @@
+/* CSS Document */
+
+.header
+{
+	text-align:center;
+	color:#099;
+	font-size: 25px;
+}
+
+.homeheader
+{
+	margin-left:15px;
+	text-align:left;
+	color:#099;
+	font-size: 25px;
+}
+
+.b
+{
+	color:#030;
+	font-size:40px;
+}
+
+body
+{
+	background-image:url(images/background.jpg);
+	font-family:'Trebuchet MS', Arial, Helvetica, sans-serif;
+	font-size:15px;
+}
+/*NAVIGATION*/
+
+.navitem-a
+{color:#fff;}
+
+.navigation
+{
+	background-color:#099;
+	padding:10px;
+	color:#fff;
+}
+
+.navitem
+{
+	display:inline;
+	color:#fff;
+	padding:5px 10px;
+	border-right:1px solid #CC3366;
+}
+
+.navigation2
+{
+	background-color:#099;
+	font-size:10px;
+	padding:5px;
+	color:#fff;
+}
+.navitem:last-child
+{
+	border-right:none;
+}
+a:visited
+{
+	color:#fff;
+}
+.navitem:hover
+{
+		color:#F00;
+}
+a:hover
+{
+		color:#F00;
+}
+a
+{
+	text-decoration:none;
+}
+
+.container
+{
+	margin:0 50px;
+}
+
+.login
+{
+	margin-top:100px;
+}
+.loginform
+{
+	width:30%;
+	position:relative;
+	margin:auto;
+}
+.composemail
+{
+	width:70%;
+	position:relative;
+	margin:auto;
+}
+.inputcomposemail
+{
+	width:100%;
+	border-color:#099;
+}
+
+.field
+{
+	width:100%;
+}
+
+input
+{
+	border:none;
+	margin:10px 0;
+	padding:5px;
+	border-radius:5px;
+	color:#099;
+}
+
+.sel
+{
+	border-radius:5px;
+}
+
+.button
+{
+	padding:10px 15px;
+	font-weight:bold;
+	background-color:#099;
+	color:#fff;
+}
+
+.nav2btn
+{
+	color:#000;
+	background-color:#b6c8db;
+	box-shadow:0 8px 16px 0 rgba(0,0,0,0.2), 0 1px 5px 0 rgba(0,0,0,0.19);
+}
+
+.main
+{
+	position:relative;
+	margin:auto;
+	box-shadow:0 8px 16px 0 rgba(0,0,0,0.2), 0 1px 5px 0 rgba(0,0,0,0.19);
+	border:solid #099;
+	border-width:thin;
+}
+/*INBOX*/
+.inbmsg
+{
+	padding:10px;
+	border-bottom:1px solid #099;
+
+}
+
+.inbmsg:hover
+{
+	background-color:#f2f2f2;
+}
+
+.inboxcontent
+{
+	width:20%;
+	display:inline-block;
+	padding:1px 10px;
+	border-right:1px solid #CC3366;
+}
+
+.inboxcontent:last-child
+{
+	border-right:none;
+}
+
+.linkNoDecor
+{
+	color:#099;
+}
+
+.linkNoDecor:visited
+{
+	color:#099;
+}
+.messageViewBody
+{
+	color:#099;
+	width:70%;
+	position:relative;
+	margin:auto;
+	padding-top:50px;
+}
+.messageViewBox
+{
+	border-radius:3px;
+	border:#099 1px solid;
+	padding:25px;
+}
+
+.messageViewBoxtd
+{
+	font-size:12px;
+}
+
+.chk
+{
+	width:5%;
+}
+.nav2btn:hover
+{
+	color:#F00;
+	background-color:#099;
+}
+
+#nav2
+{
+	display: none;
+}
+
+#replyBox
+{
+	display: none;
+}
+
+#clickme1,#clickme
+{
+	float:right;
+}
+
+.clear
+{
+	clear:both;
+}
+
+.star
+{
+	width:20px;
+	height:20px;
+}
+
+.starred
+{
+	width:5%;
+}
+
+#clickme
+{
+	background-color:#099;
+	color:#fff;
+}
+
+@media screen and (max-width: 699px) and (min-width: 500px)
+{
+	
+}
+@media screen and (max-width: 499px)
+{
+	form
+	{
+		width:100%;
+		position:relative;
+		margin:auto;
+	}
+	.container
+	{
+		margin:0;
+	}
+	body{
+		padding:5px;
+		margin:0;
+	}
+	.login
+	{
+		margin-top:100px;
+	}
+	input
+	{
+		border:none;
+		margin:5px 0;
+		padding:5px 0;
+		border-radius:5px;
+		color:#099;
+	}
+}
